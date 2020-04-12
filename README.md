@@ -10,6 +10,8 @@ I did this project to demostrate the OOP way for such simple task in the case of
 Implemented System tests. That's enough for demo.
 UML would be nice but I don't have time for it right now so, maybe, later.
 
+[Documentation](https://velidan.github.io/rpn-calculator-cli/)
+
 *Requirements*: Node v12.
 
 _In general it should work on lowest version because Typescript handles everythign
