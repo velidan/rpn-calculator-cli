@@ -35,7 +35,7 @@ To play with the project as developer you need to do:
  - execute `npm install` or `yarn`. This will install dependencies
 
 after that you'll be able to use next commands
-
+- *start*: "Build the project and runs the program" <br />
 - *info*: "Display information about the package scripts" <br />
 - *build*: "Clean and rebuild the project. Creates 2 types of package. ES6 (module) and CommonJS (main)" <br />
 - *fix*: "Try to automatically fix any linting problems", <br />
