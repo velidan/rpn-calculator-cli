@@ -21,6 +21,7 @@ but I didn't tested it on lowest version so feel free to check it._
 ### Attention
 *If you are Windows user so you can use prn-calculator-cli.exe*
 in this case no dependencies needed.
+It's located in the prn-calculator-cli-exe.zip archive
 
 It supports 4 basic operations: +, -, /, *
 
