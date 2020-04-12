@@ -36,15 +36,15 @@ To play with the project as developer you need to do:
 
 after that you'll be able to use next commands
 
-*info*: "Display information about the package scripts",
-*build*: "Clean and rebuild the project. Creates 2 types of package. ES6 (module) and CommonJS (main)",
-*fix*: "Try to automatically fix any linting problems",
-*test*: "Lint and unit test the project",
-*doc*: "Generate HTML API documentation and open it in a browser",
-*doc:json*: "Generate API documentation in typedoc JSON format",
-*version*: "Bump package.json version, update CHANGELOG.md, tag release",
-*reset*: "Delete all untracked files and reset the repo to the last commit",
-*prepare-release*: "One-step: clean, build, test, docs, and prep a release"
+- *info*: "Display information about the package scripts" <br />
+- *build*: "Clean and rebuild the project. Creates 2 types of package. ES6 (module) and CommonJS (main)" <br />
+- *fix*: "Try to automatically fix any linting problems", <br />
+- *test*: "Lint and unit test the project", <br />
+- *doc*: "Generate HTML API documentation and open it in a browser", <br />
+- *doc:json*: "Generate API documentation in typedoc JSON format", <br />
+- *version*: "Bump package.json version, update CHANGELOG.md, tag release", <br />
+- *reset*: "Delete all untracked files and reset the repo to the last commit", <br />
+- *prepare-release*: "One-step: clean, build, test, docs, and prep a release" <br />
 
 *Examples: covered in tests*
  - "Input: '5 2 /' : Result => 2.5"
