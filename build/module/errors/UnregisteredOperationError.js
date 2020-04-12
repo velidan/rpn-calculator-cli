@@ -1,0 +1,8 @@
+import RPNError from './RPNError';
+export default class UngeristeredOperationError extends RPNError {
+    constructor(incomingMSG) {
+        super(incomingMSG || UngeristeredOperationError.msg);
+    }
+}
+UngeristeredOperationError.msg = `This operation wasn't registered`;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiVW5yZWdpc3RlcmVkT3BlcmF0aW9uRXJyb3IuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvZXJyb3JzL1VucmVnaXN0ZXJlZE9wZXJhdGlvbkVycm9yLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sUUFBUSxNQUFNLFlBQVksQ0FBQztBQUVsQyxNQUFNLENBQUMsT0FBTyxPQUFPLDBCQUEyQixTQUFRLFFBQVE7SUFHOUQsWUFBWSxXQUFvQjtRQUM5QixLQUFLLENBQUMsV0FBVyxJQUFJLDBCQUEwQixDQUFDLEdBQUcsQ0FBQyxDQUFDO0lBQ3ZELENBQUM7O0FBSmEsOEJBQUcsR0FBRyxrQ0FBa0MsQ0FBQyJ9
