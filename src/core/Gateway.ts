@@ -1,8 +1,7 @@
 import chalk from 'chalk';
-
 import { ReadLine } from 'readline';
-import { RPNError } from 'src/errors';
 
+import { RPNError } from '../errors';
 import RPNCalculator from './RPNCalculator';
 
 /**

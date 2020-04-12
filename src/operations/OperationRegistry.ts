@@ -1,4 +1,4 @@
-import { UnregisteredOperationError } from 'src/errors';
+import { UnregisteredOperationError } from '../errors';
 import { Operation } from './index';
 
 interface RegistryType {

@@ -1,5 +1,5 @@
-import { NoArgumentError, RPNError } from 'src/errors';
-import { Operation, OperationRegistry }  from 'src/operations';
+import { NoArgumentError, RPNError } from '../errors';
+import { Operation, OperationRegistry }  from '../operations';
 
 import { LinkedStack, Node, NodeTypeEnum } from './index';
 

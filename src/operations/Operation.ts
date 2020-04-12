@@ -1,5 +1,5 @@
-import { InvalidOperationError, InvalidParamError } from 'src/errors';
-import { isNumber } from 'src/utils';
+import { InvalidOperationError, InvalidParamError } from '../errors';
+import { isNumber } from '../utils';
 
 // Interface for Operation
 

@@ -1,8 +1,8 @@
-import { Sum, Substract, Multiply, Divide } from 'src/operations';
+import { Sum, Substract, Multiply, Divide } from '../operations';
 
-import { UnregisteredOperationError, DivideByZeroError } from 'src/errors';
+import { UnregisteredOperationError, DivideByZeroError } from '../errors';
 
-import RPNCalculator, { ConfigType } from 'src/core/RPNCalculator';
+import RPNCalculator, { ConfigType } from '../core/RPNCalculator';
 const config: ConfigType = {
   operations: [new Sum(), new Substract(), new Multiply(), new Divide()]
 };

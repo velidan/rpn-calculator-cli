@@ -2,8 +2,7 @@ import readline from 'readline';
 
 import { Divide, Multiply, Substract, Sum } from './operations';
 
-import { ConfigType, RPNCalculator } from './core';
-import Gateway from './core/Gateway';
+import { ConfigType, Gateway, RPNCalculator } from './core';
 
 const config: ConfigType = {
   operations: [

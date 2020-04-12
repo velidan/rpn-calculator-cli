@@ -12,10 +12,15 @@ UML would be nice but I don't have time for it right now so, maybe, later.
 
 [Documentation](https://velidan.github.io/rpn-calculator-cli/)
 
+
 *Requirements*: Node v12.
 
 _In general it should work on lowest version because Typescript handles everythign
 but I didn't tested it on lowest version so feel free to check it._
+
+### Attention
+*If you are Windows user so you can use prn-calculator-cli.exe*
+in this case no dependencies needed.
 
 It supports 4 basic operations: +, -, /, *
 

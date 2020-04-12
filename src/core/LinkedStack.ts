@@ -1,4 +1,4 @@
-import { InvalidParamError, RPNError } from 'src/errors';
+import { InvalidParamError, RPNError } from '../errors';
 import Node from './Node';
 
 /**

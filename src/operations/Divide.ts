@@ -1,4 +1,4 @@
-import { DivideByZeroError } from 'src/errors';
+import { DivideByZeroError } from '../errors';
 import Operation from './Operation';
 
 export default class Sum extends Operation {
