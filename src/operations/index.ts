@@ -1,4 +1,5 @@
 export { default as Operation } from './Operation';
+export { default as OperationInterface } from './OperationInterface';
 
 export { default as OperationRegistry } from './OperationRegistry';
 

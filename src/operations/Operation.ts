@@ -1,15 +1,16 @@
 import { InvalidOperationError, InvalidParamError } from '../errors';
 import { isNumber } from '../utils';
+import OperationInterface from './OperationInterface';
 
-// Interface for Operation
+// Abstract class for Oepration
 
-export default abstract class Operation {
-
+export default abstract class Operation implements OperationInterface {
   public static isValidOperation(param: any) {
     if (!(param instanceof Operation)) {
       throw new InvalidOperationError();
     }
   }
+
   private symbol: string;
 
   constructor(symbol: string) {
